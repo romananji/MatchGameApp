@@ -1,0 +1,20 @@
+.tab-button {
+  background-color: transparent;
+  color: white;
+  border: none;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: 'Roboto';
+
+  outline: none;
+  cursor: pointer;
+}
+.selected-button {
+  color: #fec653;
+  border-bottom: 2px solid #fec653;
+}
+.tab-list-item {
+    margin-right: 15px;
+}

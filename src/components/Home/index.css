@@ -1,0 +1,157 @@
+.bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+  background-size: cover;
+  min-height: 100vh;
+  max-width: 1000px;
+}
+.nav-bar {
+  background-color: #2c0e3a;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+@media screen and (max-width: 768px) {
+  .nav-bar {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+.nav-bar-list {
+  list-style-type: none;
+  padding: 0;
+  width: 95%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+@media screen and (max-width: 768px) {
+  .nav-bar-list {
+    width: 98%;
+  }
+}
+.website-logo {
+  width: 130px;
+}
+@media screen and (max-width: 768px) {
+  .website-logo {
+    width: 120px;
+  }
+}
+.scoreboard-container {
+  display: flex;
+  align-items: center;
+}
+.timer-image {
+  height: 20px;
+  width: 20px;
+}
+.timer-container {
+  display: flex;
+  align-items: center;
+}
+.score {
+  font-weight: bold;
+  color: white;
+  font-family: 'Roboto';
+  margin-right: 30px;
+}
+@media screen and (max-width: 768px) {
+  .score {
+    margin-right: 13px;
+  }
+}
+.timer {
+  font-weight: bold;
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #fec653;
+  margin-left: 5px;
+}
+.span-element {
+  color: #fec653;
+}
+.card {
+  width: 60%;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  min-height: 100vh;
+}
+@media screen and (max-width: 768px) {
+  .card {
+    width: 90%;
+  }
+}
+.display-image {
+  width: 100%;
+}
+.tabs-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+}
+.tab-items-container {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+}
+.result-container {
+  margin-top: 16px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png');
+  background-size: cover;
+  width: 100%;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+.trophy-image {
+  width: 60%;
+  margin-top: 50px;
+}
+.your-score {
+  font-weight: bold;
+  color: white;
+  font-size: 25px;
+  font-family: 'Roboto';
+}
+.scoree {
+  font-weight: bold;
+  color: white;
+  font-size: 50px;
+  font-family: 'Roboto';
+  margin-top: 0px;
+}
+.play-again-button {
+  background-color: #cf60c8;
+  font-weight: bold;
+  color: white;
+  font-family: 'Roboto';
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  padding: 6px 12px 6px 12px;
+}
+.reset-image {
+  height: 20px;
+  width: 20px;
+  margin-right: 5px;
+}
